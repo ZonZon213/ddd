@@ -4935,7 +4935,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("Divinity HUB","Never x Thug")
+	local Main = library:Window("Divinity HUB","Never x Thug x ZonZon")
 	local AutoFarmTab = Main:Tab("AutoFarm Misc")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
